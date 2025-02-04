@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Playwrite+CA+Guides&display=swap');
+
 @media screen and (min-width: 768px)
 {
     html {
@@ -157,6 +161,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        
+        background-color: bisque;
 
     }
     .main-content-box
@@ -164,10 +170,11 @@
         width: 1200px;
         height: 90%;
 
-        border: 1px solid rgb(0, 0, 0);
+        
         border-radius: 5px;
 
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        background-color: white;
     }
     .main-content-box-loja
     {
@@ -175,6 +182,10 @@
         height: 400px;
 
         padding: 10px;
+
+        display: flex;
+        gap: 20px;
+        
         
     }
     .main-content-box-loja-imagem
@@ -182,7 +193,7 @@
         width: 500px;
         height: 350px;
 
-        border: 1px solid black;
+        
         border-radius: 5px;
         
     }
@@ -191,4 +202,117 @@
         width: 100%;
         height:100%;
     }
+    .main-content-box-loja-data
+    {
+        width: 630px;
+        height: 340px;
+
+        padding-top: 30px;
+        padding-left: 20px;
+
+        
+
+        
+    }
+    .main-content-box-loja-location
+    {
+        display: flex;
+        gap: 5px;
+       
+    }
+    .main-content-box-loja-location-icon
+    {
+        width: 15px;
+        height: 15px;
+
+    }
+    .main-content-box-loja-location-icon img
+    {
+        width:100%;
+        height: 100%;
+    }
+    .main-content-box-loja-location-text
+    {
+        font-family: "Glass Antiqua", serif;
+        
+        font-style: normal;
+        font-size: 1.6rem;
+    }
+    .main-content-box-loja-location-text a
+    {
+        color: black;
+        text-decoration: none;
+        
+    }
+    .main-content-box-loja-location-text a:hover
+    {
+        color: black;
+        text-decoration:underline;
+        
+    }
+    .main-content-box-loja-title
+    {
+        width: 630px;
+        height: 100px;
+
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+
+        
+    }
+    .title
+    {
+        font-family: "Glass Antiqua", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+   .main-content-box-loja-botões
+   {
+    margin-top: 100px;
+
+    width: 630px;
+    height: 100px;
+
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+   } 
+   .main-content-box-loja-botões-play
+   {
+    width: 300px;
+    height: 100px;
+
+   }
+   .main-content-box-loja-botões-play img
+   { 
+    width: 100%;
+    height: 100%;
+   }
+   .main-content-box-loja-botões-apple
+   {
+    width: 300px;
+    height: 100px;
+
+    
+   }
+   .main-content-box-loja-botões-apple img
+   { 
+    width: 100%;
+    height: 100%;
+   }
+   .main-content-box-loja-data-descrição
+   {
+    width: 100%;
+    height: 200px;
+
+    border: 1px solid black;
+    border-radius: 5px ;
+   }
 }
