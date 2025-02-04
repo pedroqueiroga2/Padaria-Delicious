@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Playwrite+CA+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Glass+Antiqua&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media screen and (min-width: 768px)
 {
@@ -199,6 +199,8 @@
 
         
         border-radius: 5px;
+
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         
     }
     .main-content-box-loja-imagem img
@@ -267,10 +269,13 @@
     }
     .title
     {
-        font-family: "Glass Antiqua", serif;
-        font-weight: 400;
+        font-family: "Dancing Script", serif;
+        font-optical-sizing: auto;
         font-style: normal;
-        font-size: 50px;
+        font-weight: 700;
+        font-size: 60px;
+
+        
     }
    .main-content-box-loja-botões
    {
@@ -326,5 +331,77 @@
     color: rgba(0, 0, 0, 0.589);
     
    }
-   .main-content-box-loja-data-meet{}
+   .main-content-box-loja-data-meet
+   {
+    width: 100%;
+    height: 200px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .main-content-box-loja-data-meet a
+   {
+    text-decoration: none;
+   }
+   .main-content-box-loja-data-meet-button 
+   {
+    
+    width: 400px;
+    height: 100px;
+
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   }
+  
+   .main-content-box-loja-data-meet-button:hover
+   {
+    background-color: rgba(0, 0, 0, 0.774);
+   }
+   .main-content-box-loja-data-meet-button-text 
+   {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+   }
+}
+@media (max-width: 767px)
+{
+    html {
+        font-size: 62.5%;
+        padding: 0;
+        margin: 0;
+    
+    }
+    body
+    {
+        padding: 0;
+        margin: 0;
+    }
+    header {
+        padding: 0;
+        margin: 0;
+    
+        width: 100vw;
+        height: 350px;
+    
+        font-size: 1.2rem;
+    
+        background-image: url(imagens/imagens-/background-navbar-without\ box.png);
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    
+    }
 }
